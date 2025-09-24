@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pizzaria Dom Pedro - A melhor pizza da cidade!</title>
+    <title>PIZARIA BR - A melhor pizza da cidade!</title>
     <style>
         :root {
             --vermelho: #e63946;
@@ -357,7 +357,7 @@
 </head>
 <body>
     <header>
-        <div class="logo">DOM PEDRO</div>
+        <div class="logo">PIZARIA BR</div>
         <div class="slogan">A autêntica pizza italiana</div>
     </header>
     
@@ -372,7 +372,7 @@
     </nav>
     
     <section class="hero" id="inicio">
-        <h1>Pizzaria Dom Pedro</h1>
+        <h1>PIZARIA BR</h1>
         <p>Sabores que conquistam paladares desde 1985. Massa fina e crocante, ingredientes frescos e selecionados.</p>
         <a href="#pedido" class="btn">Peça agora</a>
     </section>
@@ -919,7 +919,7 @@
     </div>
     
     <footer>
-        <div class="footer-logo">DOM PEDRO</div>
+        <div class="footer-logo">PIZARIA BR</div>
         
         <div class="footer-info">
             <div>
@@ -936,8 +936,7 @@
             
             <div>
                 <h3>Telefone</h3>
-                <p>(11) 1234-5678</p>
-                <p>(11) 98765-4321 (WhatsApp)</p>
+                <p>(67) 99936-1566 (WhatsApp)</p>
             </div>
         </div>
         
@@ -1074,7 +1073,7 @@
                 
                 const total = carrinho.reduce((sum, item) => sum + (item.price * item.quantity), 0);
                 
-                let mensagem = `📋 *NOVO PEDIDO PIZZARIA DOM PEDRO* 📋\n\n`;
+                let mensagem = `📋 *NOVO PEDIDO PIZARIA BR* 📋\n\n`;
                 mensagem += `👤 *Cliente:* ${nome}\n`;
                 mensagem += `📞 *Telefone:* ${telefone}\n`;
                 mensagem += `🏠 *Endereço:* ${endereco}\n\n`;
@@ -1100,7 +1099,7 @@
                 // Aqui você pode enviar o pedido para o WhatsApp ou outra plataforma
                 // Este é um exemplo para WhatsApp
                 // IMPORTANTE: Troque o número abaixo pelo WhatsApp da sua pizzaria (incluindo o código do país, ex: 55 para o Brasil)
-                const telefoneWhatsapp = '5567996104050';
+                const telefoneWhatsapp = '5567999361566';
                 const whatsappURL = `https://wa.me/${telefoneWhatsapp}?text=${encodeURIComponent(mensagem)}`;
                 window.open(whatsappURL, '_blank');
                 
